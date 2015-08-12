@@ -1,0 +1,275 @@
+@-moz-document domain('reddit.com'){
+
+body{
+font-family:Georgia!important;
+}
+
+#sr-header-area{
+border-bottom:none!important;
+}
+
+.sr-list{
+margin-left:4px!important;
+}
+
+.sr-bar .separator {
+display:none!important;
+}
+
+.sr-bar li {
+margin:auto 2px!important;
+font-size:120%;
+}
+
+.sr-list a {
+text-transform:lowercase!important;
+}
+
+#header{
+border-bottom:none!important;
+box-shadow:0px 0px 3px rgba(0,0,0,0.3);
+}
+
+#header-bottom-left{
+background-color:#fff;
+}
+
+#header-bottom-left .tabmenu {
+margin-bottom:3px!important;
+}
+
+#header-bottom-left .tabmenu li a{
+background:none!important;
+border:none!important;
+}
+
+#header-bottom-left .redditname{
+display:inline-block!important;
+margin-left:8px!important;
+}
+
+#header-bottom-right{
+background-color:#eee!important;
+border-radius:1px!important;
+}
+
+.content[role="main"] {
+margin-right:0px;
+}
+
+.side{
+position:absolute;
+top:64px;
+right:-5px;
+z-index:99;
+padding:5px;
+padding:0px 5px 0px 5px!important;
+margin-top:50px;
+box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+transition:opacity 0.5s;
+}
+.side {
+opacity:0;
+}
+.side:hover{
+opacity:1
+}
+
+.side .sidebox .spacer{
+display:none;
+}
+
+.side .sidebox.submit, .side .sidebox.create{
+background:#efefef!important;
+border-radius:3px;
+}
+
+.side .sidebox.submit .morelink, .side .sidebox.create .morelink{
+background:none!important;
+border:none!important;
+}
+
+.side .sidebox.submit .morelink .nub, .side .sidebox.create .morelink .nub{
+display:none!important;
+}
+
+.side .goldvertisement{
+border:none!important;
+box-shadow:none!important;
+}
+
+.side .goldvertisement .inner{
+border:none!important;
+}
+
+.side .sidecontentbox .content{
+border:none!important;
+background:#fafafa;
+border-radius:3px;
+}
+
+
+.organic-listing{
+border:none!important;
+border-radius:2px!important;
+}
+
+.link.promotedlink.promoted{
+background-color:#fafafa!important;
+}
+
+.thing{
+margin-bottom:15px!important;
+}
+
+.thing .midcol{
+width:7ex!important;
+}
+
+.thing .title{
+color:#444!important;
+font-size:140%!important;
+}
+  
+/*highlight video links*/
+.thing .title[href*="vimeo.com"],
+.thing .title[href*="youtube.com"],
+.thing .title[href*="youtu.be"]{
+color: hsl(200, 60%, 50%)!important  
+}
+/*end highlight video links*/
+
+/*highlight img links*/
+.thing .title[href$=".jpg"],
+.thing .title[href$=".jpeg"],
+.thing .title[href$=".gif"],
+.thing .title[href$=".png"],
+.thing .title[href*="imgur.com"],
+.thing .title[href*="minus.com"],
+.thing .title[href*="gfycat.com"],
+.thing .title[href*="deviantart.com"],
+.thing .title[href*="flickr.com"]{
+color: hsl(30, 80%, 40%)!important;
+}
+/* end highlight img links */
+
+.thing .title:visited{
+color:#999!important;
+}
+
+.domain {
+color:rgba(0,0,0,0)!important;
+background:rgba(0,0,0,0.03);
+padding:2px;
+display:block!important;
+margin:4px 0px;
+vertical-align:middle;
+border-radius:2px;
+}
+
+.domain a{
+font-size:120%!important;
+}
+
+.thing.link{
+margin-left:100px!important;
+}
+
+.thing .tagline{
+font-size:120%!important;
+padding:2px!important;
+padding-left:6px!important;
+margin:4px 0px!important;
+margin-right:6px!important;
+display:block!important;
+background:rgba(0,0,0,0.03);
+border-radius:2px;
+}
+
+.thing.link.last-clicked{
+border:none!important;
+overflow:visible!important;
+}
+
+.thing .rank{
+display:none!important;
+}
+
+.link .flat-list{
+margin-top:2px!important;
+}
+
+.link .flat-list li{
+opacity:0.3;
+}
+
+.link .flat-list li.first{
+opacity:1;
+font-size:140%;
+}
+
+.expando-button{
+width:20px!important;
+height:20px!important;
+background-image:none!important;
+background:#444!important;
+border-radius:2px;
+}
+
+.expando-button.expanded{
+background:hsl(0,60%,60%)!important;
+}
+
+.thumbnail {
+margin-left:-130px!important;
+}
+
+.nextprev a{
+border:none!important;
+background:none!important;
+}
+
+.thing.subreddit .entry{
+margin-left:100px!important;
+}
+
+.thing.subreddit .midcol{
+width:80px!important;
+}
+
+.comment .flat-list.buttons{
+opacity:0.2;
+}
+
+.comment .flat-list.buttons:hover{
+opacity:1;
+}
+
+.comment .tagline .expand{
+margin-left:-4px!important;
+}
+
+.content .help{
+display:none;
+}
+
+.search-result{
+	margin-left: 70px;
+}
+	
+.search-result .thumbnail{
+	margin-left: -80px!important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
