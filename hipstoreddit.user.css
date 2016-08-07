@@ -29,33 +29,33 @@
 		margin-bottom: 3px !important;
 	}
 	#header-bottom-left .tabmenu li a {
-		background: none !important;
 		border: none !important;
+		background: none !important;
 	}
 	#header-bottom-left .redditname {
 		display: inline-block !important;
 		margin-left: 8px !important;
 	}
 	#header-bottom-right {
-		background-color: #eee !important;
 		border-radius: 1px !important;
+		background-color: #eee !important;
 	}
 	.content[role="main"] {
 		margin-right: 0px;
 	}
 	.side {
-		-webkit-transition: max-height 2s;
-		transition: max-height 2s;
-		top: -44px;
-		max-height: 4.4em;
 		position: relative;
-		overflow: hidden;
+		top: -44px;
 		right: -5px;
 		z-index: 99;
+		overflow: hidden;
+		margin-top: 50px;
 		padding: 5px;
 		padding: 0px 5px 0px 5px !important;
-		margin-top: 50px;
+		max-height: 4.4em;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+		-webkit-transition: max-height 2s;
+		transition: max-height 2s;
 	}
 	.side:hover {
 		max-height: 300em;
@@ -64,12 +64,12 @@
 		display: none;
 	}
 	.side .sidebox.submit, .side .sidebox.create {
-		background: #efefef !important;
 		border-radius: 3px;
+		background: #efefef !important;
 	}
 	.side .sidebox.submit .morelink, .side .sidebox.create .morelink {
-		background: none !important;
 		border: none !important;
+		background: none !important;
 	}
 	.side .sidebox.submit .morelink .nub, .side .sidebox.create .morelink .nub {
 		display: none !important;
@@ -83,8 +83,8 @@
 	}
 	.side .sidecontentbox .content {
 		border: none !important;
-		background: #fafafa;
 		border-radius: 3px;
+		background: #fafafa;
 	}
 	.organic-listing {
 		border: none !important;
@@ -103,23 +103,23 @@
 		color: #444 !important;
 		font-size: 140% !important;
 	}
-	.thing[data-domain*="vimeo.com"] .title, .thing[data-domain*="youtube.com"] .title, .thing[data-domain*="youtu.be"] .title, .thing[data-domain*="dailymotion.com"] .title {
+	.thing[data-domain*="youtu.be"] .title, .thing[data-domain*="youtube.com"] .title, .thing[data-domain*="vimeo.com"] .title, .thing[data-domain*="dailymotion.com"] .title {
 		color: #3399cc !important;
 	}
-	.thing[data-url*=".jpg"] .title, .thing[data-url*=".JPG"] .title, .thing[data-url*=".jpeg"] .title, .thing[data-url*=".JPEG"] .title, .thing[data-url*=".gif"] .title, .thing[data-url*=".GIF"] .title, .thing[data-url*=".png"] .title, .thing[data-url*=".PNG"] .title, .thing[data-domain*="imgur.com"] .title, .thing[data-domain*="minus.com"] .title, .thing[data-domain*="gfycat.com"] .title, .thing[data-domain*="deviantart.com"] .title, .thing[data-domain*="flickr.com"] .title, .thing[data-domain*="i.redd.it"] .title, .thing[data-domain*="reddituploads.com"] .title {
+	.thing[data-url*=".jpg"] .title, .thing[data-url*=".JPG"] .title, .thing[data-url*=".jpeg"] .title, .thing[data-url*=".JPEG"] .title, .thing[data-url*=".gif"] .title, .thing[data-url*=".GIF"] .title, .thing[data-url*=".png"] .title, .thing[data-url*=".PNG"] .title, .thing[data-domain*="i.redd.it"] .title, .thing[data-domain*="imgur.com"] .title, .thing[data-domain*="gfycat.com"] .title, .thing[data-domain*="minus.com"] .title, .thing[data-domain*="flickr.com"] .title, .thing[data-domain*="deviantart.com"] .title, .thing[data-domain*="reddituploads.com"] .title, .thing[data-domain*="artstation.com"] .title {
 		color: #b86614 !important;
 	}
 	.thing .title:visited {
 		color: #999 !important;
 	}
 	.domain {
-		color: transparent !important;
-		background: rgba(0, 0, 0, 0.03);
-		padding: 2px;
 		display: block !important;
 		margin: 4px 0px;
-		vertical-align: middle;
+		padding: 2px;
 		border-radius: 2px;
+		background: rgba(0, 0, 0, 0.03);
+		color: transparent !important;
+		vertical-align: middle;
 	}
 	.domain a {
 		font-size: 120% !important;
@@ -128,18 +128,18 @@
 		margin-left: 100px !important;
 	}
 	.thing .tagline {
-		font-size: 120% !important;
-		padding: 2px !important;
-		padding-left: 6px !important;
+		display: block !important;
 		margin: 4px 0px !important;
 		margin-right: 6px !important;
-		display: block !important;
-		background: rgba(0, 0, 0, 0.03);
+		padding: 2px !important;
+		padding-left: 6px !important;
 		border-radius: 2px;
+		background: rgba(0, 0, 0, 0.03);
+		font-size: 120% !important;
 	}
 	.thing.link.last-clicked {
-		border: none !important;
 		overflow: visible !important;
+		border: none !important;
 	}
 	.thing .rank {
 		display: none !important;
@@ -151,15 +151,14 @@
 		opacity: 0.3;
 	}
 	.link .flat-list li.first {
-		opacity: 1;
 		font-size: 140%;
+		opacity: 1;
 	}
 	.expando-button {
 		width: 20px !important;
 		height: 20px !important;
-		background-image: none !important;
-		background: #444 !important;
 		border-radius: 2px;
+		background: #444 !important;
 	}
 	.expando-button.expanded {
 		background: #d65c5c !important;
