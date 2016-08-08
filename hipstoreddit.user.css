@@ -103,7 +103,7 @@
 		color: #444 !important;
 		font-size: 140% !important;
 	}
-	.thing[data-domain*="youtu.be"] .title, .thing[data-domain*="youtube.com"] .title, .thing[data-domain*="vimeo.com"] .title, .thing[data-domain*="dailymotion.com"] .title {
+	.thing[data-domain*="youtu.be"] .title, .thing[data-domain*="youtube.com"] .title, .thing[data-domain*="vimeo.com"] .title, .thing[data-domain*="vid.me"] .title, .thing[data-domain*="dailymotion.com"] .title {
 		color: #3399cc !important;
 	}
 	.thing[data-url*=".jpg"] .title, .thing[data-url*=".JPG"] .title, .thing[data-url*=".jpeg"] .title, .thing[data-url*=".JPEG"] .title, .thing[data-url*=".gif"] .title, .thing[data-url*=".GIF"] .title, .thing[data-url*=".png"] .title, .thing[data-url*=".PNG"] .title, .thing[data-domain*="i.redd.it"] .title, .thing[data-domain*="imgur.com"] .title, .thing[data-domain*="gfycat.com"] .title, .thing[data-domain*="minus.com"] .title, .thing[data-domain*="flickr.com"] .title, .thing[data-domain*="deviantart.com"] .title, .thing[data-domain*="reddituploads.com"] .title, .thing[data-domain*="artstation.com"] .title {
