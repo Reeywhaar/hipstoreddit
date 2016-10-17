@@ -226,9 +226,23 @@ $image_domains:
 		height: 20px !important;
 		border-radius: 2px;
 		background: #444 !important;
+		&:after, &.expanded:after{
+			position:relative;
+			color:white;
+			font-size:16px;
+			margin-left:5px;
+		}
+		&:after{
+			content:"▹";
+		}
 		&.expanded {
 			background: hsl(0, 60%, 60%) !important;
+			&:after{
+				content:"▿";
+				margin-top:-1px;
+			}
 		}
+
 	}
 
 	.thumbnail {

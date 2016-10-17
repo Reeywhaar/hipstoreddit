@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @-moz-document domain('reddit.com') {
 	body {
 		font-family: "Charter", Georgia, serif !important;
@@ -160,8 +161,21 @@
 		border-radius: 2px;
 		background: #444 !important;
 	}
+	.expando-button:after, .expando-button.expanded:after {
+		position: relative;
+		margin-left: 5px;
+		color: white;
+		font-size: 16px;
+	}
+	.expando-button:after {
+		content: "▹";
+	}
 	.expando-button.expanded {
 		background: #d65c5c !important;
+	}
+	.expando-button.expanded:after {
+		margin-top: -1px;
+		content: "▿";
 	}
 	.thumbnail {
 		margin-left: -130px !important;
